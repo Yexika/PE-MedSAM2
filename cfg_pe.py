@@ -27,9 +27,9 @@ def parse_args():
 
     # Model weights
     parser.add_argument('-pretrain', type=str,
-                        default='/root/autodl-tmp/Medical-SAM2-main/pretrained weight/MedSAM2_pretrain.pth')
+                        default='./pretrained weight/MedSAM2_pretrain.pth')
     parser.add_argument('-weights', type=str,
-                        default='/root/autodl-tmp/Medical-SAM2-main/pretrained weight/MedSAM2_pretrain.pth')
+                        default='./pretrained weight/MedSAM2_pretrain.pth')
 
     # Training
     parser.add_argument('-val_freq', type=int, default=1, help='validation frequency')
