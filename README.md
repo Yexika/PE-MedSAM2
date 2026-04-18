@@ -228,10 +228,12 @@ If you find this work useful, please cite:
 @article{yuan2026pemedsam2,
   title   = {PE-MedSAM2: Parameter-Efficient Adaptation of MedSAM2 for 2D Medical Image Segmentation},
   author  = {Yuan, Xuejia and Yang, Zongjian and Guo, Yu and Kong, Fanhui and Ma, Jiquan},
-  journal = {Biomedical Signal Processing and Control},
-  year    = {2026}
+  year    = {2026},
+  note    = {Manuscript under review at Biomedical Signal Processing and Control}
 }
 ```
+
+> The citation above will be updated with the final journal reference (volume, issue, pages, DOI) once the paper is accepted.
 
 ---
 
