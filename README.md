@@ -229,7 +229,7 @@ If you find this work useful, please cite:
   title   = {PE-MedSAM2: Parameter-Efficient Adaptation of MedSAM2 for 2D Medical Image Segmentation},
   author  = {Yuan, Xuejia and Yang, Zongjian and Guo, Yu and Kong, Fanhui and Ma, Jiquan},
   year    = {2026},
-  note    = {Manuscript under review at Biomedical Signal Processing and Control}
+  note    = {Manuscript under review at IEEE TRANSACTIONS ON BIOMEDICAL ENGINEERING}
 }
 ```
 
