@@ -7,14 +7,14 @@
 </p>
 
 <p align="center"><em>
-Overall architecture of PE-MedSAM2. The image encoder and mask decoder of MedSAM2 are frozen, while four lightweight PE modules (296K trainable parameters, 0.64% of MedSAM2) are inserted as a post-hoc refinement layer.
+Overall architecture of PE-MedSAM2. The image encoder and mask decoder of MedSAM2 are frozen, while four lightweight PE modules (294K trainable parameters, 0.64% of MedSAM2) are inserted as a post-hoc refinement layer.
 </em></p>
 
 ---
 
 ## 📌 Highlights
 
-- **Parameter-Efficient.** Only **296K trainable parameters** (2.52% of MedSAM2's 11.73M standard fine-tuning budget).
+- **Parameter-Efficient.** Only **294K trainable parameters** (2.52% of MedSAM2's 11.73M standard fine-tuning budget).
 - **Computation-Efficient.** Adds only **+1.79G FLOPs (+11.1%)** and **~2ms latency** over the MedSAM2 baseline.
 - **Four Complementary Lightweight Modules.**
   - **LRA** — Low-Rank Adapter for domain transfer
