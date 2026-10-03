@@ -10,7 +10,7 @@
 > **Publication:** Xuejia Yuan, Zongjian Yang, Yu Guo, Fanhui Kong, and Jiquan Ma. *IEEE Transactions on Biomedical Engineering*, Early Access, published online September 7, 2026. [IEEE Xplore](https://ieeexplore.ieee.org/document/11680545) · [DOI](https://doi.org/10.1109/TBME.2026.3731109)
 
 <p align="center">
-  <img src="vis/figoverall_architecture.png" width="90%" alt="PE-MedSAM2 Architecture" />
+  <img src="vis/figoverall_architecture.png?raw=1&v=20261003" width="90%" alt="PE-MedSAM2 Architecture" />
 </p>
 
 <p align="center"><em>
