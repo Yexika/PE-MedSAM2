@@ -3,6 +3,13 @@
 > **PE-MedSAM2: Parameter-Efficient Adaptation of MedSAM2 for 2D Medical Image Segmentation**
 
 <p align="center">
+  <a href="https://doi.org/10.1109/TBME.2026.3731109"><img src="https://img.shields.io/badge/IEEE%20TBME-Published%20Online-00629B" alt="Published online in IEEE TBME" /></a>
+  <a href="https://doi.org/10.1109/TBME.2026.3731109"><img src="https://img.shields.io/badge/DOI-10.1109%2FTBME.2026.3731109-blue" alt="DOI" /></a>
+</p>
+
+> **Publication:** Xuejia Yuan, Zongjian Yang, Yu Guo, Fanhui Kong, and Jiquan Ma. *IEEE Transactions on Biomedical Engineering*, Early Access, published online September 7, 2026. [IEEE Xplore](https://ieeexplore.ieee.org/document/11680545) · [DOI](https://doi.org/10.1109/TBME.2026.3731109)
+
+<p align="center">
   <img src="vis/figoverall_architecture.png" width="90%" alt="PE-MedSAM2 Architecture" />
 </p>
 
@@ -15,13 +22,13 @@ Overall architecture of PE-MedSAM2. The image encoder and mask decoder of MedSAM
 ## 📌 Highlights
 
 - **Parameter-Efficient.** Only **294K trainable parameters** (2.52% of MedSAM2's 11.73M standard fine-tuning budget).
-- **Computation-Efficient.** Adds only **+1.79G FLOPs (+11.1%)** and **~2ms latency** over the MedSAM2 baseline.
+- **Computation-Efficient.** Adds only **+0.89G MACs (+0.7%)** and **~1.2ms latency** over the MedSAM2 baseline.
 - **Four Complementary Lightweight Modules.**
   - **LRA** — Low-Rank Adapter for domain transfer
   - **PFFE** — Parameter-Free Feature Enhancement via fixed multi-scale gradient operators
   - **ULA** — Ultra-Lightweight Adapter with depthwise separable decomposition (67% fewer parameters than standard adapters)
   - **DSA** — Dynamic Sparse Attention, selecting top-25% tokens to cut 93.75% of attention computation
-- **Consistent gains on 5 benchmarks** across three modalities (polyp, skin lesion, cell nucleus).
+- **Consistent gains on five RGB-like benchmarks** across three modalities (polyp, skin lesion, cell nucleus), with additional improvement over MedSAM2 on a sixth chest-radiography benchmark.
 - **Best ASD on 4/5 benchmarks** and **best DSC on 4/5 benchmarks**, up to **38.4% ASD reduction** over MedSAM2.
 
 ---
@@ -228,12 +235,15 @@ If you find this work useful, please cite:
 @article{yuan2026pemedsam2,
   title   = {PE-MedSAM2: Parameter-Efficient Adaptation of MedSAM2 for 2D Medical Image Segmentation},
   author  = {Yuan, Xuejia and Yang, Zongjian and Guo, Yu and Kong, Fanhui and Ma, Jiquan},
+  journal = {IEEE Transactions on Biomedical Engineering},
   year    = {2026},
-  note    = {Manuscript under review at IEEE TRANSACTIONS ON BIOMEDICAL ENGINEERING}
+  pages   = {1--12},
+  doi     = {10.1109/TBME.2026.3731109},
+  note    = {Early Access, published online September 7, 2026}
 }
 ```
 
-> The citation above will be updated with the final journal reference (volume, issue, pages, DOI) once the paper is accepted.
+> The paper is published online in IEEE Transactions on Biomedical Engineering (Early Access).
 
 ---
 
